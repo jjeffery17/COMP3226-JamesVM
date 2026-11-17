@@ -1,0 +1,8 @@
+# Too big for GitHub, and Windows images can't be redistributed.
+# Each collaborator downloads the ISO and creates their own disk (see REQUIREMENTS.md).
+*.iso
+*.qcow2
+# Per-machine UEFI NVRAM, recreated from the OVMF template by win10.sh
+win10_VARS.fd
+# Runtime socket
+qmp.sock
